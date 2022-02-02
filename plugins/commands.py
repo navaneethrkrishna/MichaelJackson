@@ -22,7 +22,9 @@ async def start(client, message):
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url='http://t.me/cv_autofilter_bot?startgroup=true')
             ],[
             InlineKeyboardButton('🔥my features🔥', callback_data='help'),
-             InlineKeyboardButton('movie group', url='https://t.me/cinemavilla_group')
+              InlineKeyboardButton('📽movie group📽', url='https://t.me/cinemavilla_group')
+            ],[
+            InlineKeyboardButton('♠️𝖢𝗋𝖾𝖺𝗍𝗈r♠️', url='https://t.me/AlanWalker_TG')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
