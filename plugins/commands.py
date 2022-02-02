@@ -24,7 +24,7 @@ async def start(client, message):
             InlineKeyboardButton('🔥my features🔥', callback_data='help'),
               InlineKeyboardButton('📽movie group📽', url='https://t.me/cinemavilla_group')
             ],[
-            InlineKeyboardButton('♠️𝖢𝗋𝖾𝖺𝗍𝗈r♠️', url='https://t.me/AlanWalker_TG')
+             InlineKeyboardButton('🔍Search🔎', switch_inline_query_current_chat='')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
