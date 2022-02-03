@@ -763,7 +763,7 @@ async def auto_filter(client, message):
             BUTTONS[key] = search
             req = message.from_user.id if message.from_user else 0
             btn.append(
-                [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_{req}_{key}_{offset}")]
+                [InlineKeyboardButton(text=f"🗓 1/{round(int(total_results)/10)}",callback_data="pages"), InlineKeyboardButton(text="NEXT ⏩",callback_data=f"next_{req}_{key}_{offset}"), InlineKeyboardButton('📽movie group📽', url='https://t.me/cinemavilla_group')]
             )
         else:
             btn.append(
@@ -775,5 +775,5 @@ async def auto_filter(client, message):
         elif imdb:
             await message.reply_text(f"**🏷 𝖳𝗂𝗍𝗅𝖾**: <a href={imdb['url']}>{imdb.get('title')}</a>\n**🎭 𝖦𝖾𝗇𝗋𝖾**: {imdb.get('genres')}\n**📆 𝖸𝖾𝖺𝗋**: <a href={imdb['url']}/releaseinfo>{imdb.get('year')}</a>\n**🌟 𝖱𝖺𝗍𝗂𝗇𝗀**: <a href={imdb['url']}/ratings>{imdb.get('rating')}</a> / 10 \n**🤭 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : <code>{imdb.get('language')}<\code>**🖋 𝖯𝗅𝗈𝗍**: <code>{imdb.get('plot')} </code>", reply_markup=InlineKeyboardMarkup(btn))
         else:
-            await message.reply_text(f"<b>Here is What I Found In My Database For Your Query {search} ‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
+            await message.reply_text(f"<b>𝖳𝗂𝗍𝗅𝖾 {search} ‌‎ </b>", reply_markup=InlineKeyboardMarkup(btn))
 
