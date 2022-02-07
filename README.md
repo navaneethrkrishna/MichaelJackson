@@ -1,12 +1,11 @@
 
-## This Bot May Look Like [cv_AutofilterBot](https://t.me/cv_Autofilter_bot) And Its Because I Like Its UI, That's All</b>
+## This Bot May Look Like [CV_AutofilterBot](https://t.me/cv_Autofilter_bot) And Its Because I Like Its UI, That's All</b>
 
 
 # Credits
 * `Base Repo Used In The Build - Eva Maria`
-* © [PaulWalker](https://telegram.dog/PaulWalker_TG)
-* Powered By [XD_Botz](https://telegram.dog/xd_botz)
-* [Subin Ps](https://telegram.dog/subin_works)
+* © [ALAN Walker](https://telegram.dog/ALANWalker_TG)
+* Powered By [CINEMA VILLA](https://telegram.dog/CINEMAVILLA_GROUP)
 
 ## Features
 - [x] Auto Filter
